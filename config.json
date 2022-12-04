@@ -1382,6 +1382,22 @@
         "difficulty": 4
       },
       {
+        "slug": "state-of-tic-tac-toe",
+        "name": "State of tic tac toe",
+        "uuid": "abe6fcb1-3896-4513-83db-46d918a55f4e",
+        "practices": ["string-methods"],
+        "prerequisites": [
+          "basics",
+          "conditionals",
+          "loops",
+          "lists",
+          "list-methods",
+          "strings",
+          "string-methods"
+        ],
+        "difficulty": 4
+      },
+      {
         "slug": "linked-list",
         "name": "Linked List",
         "uuid": "ca7a8b16-e5d5-4211-84f0-2f8e35b4a665",
