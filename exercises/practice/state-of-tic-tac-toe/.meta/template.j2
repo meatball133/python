@@ -1,11 +1,10 @@
 {%- import "generator_macros.j2" as macros with context -%}
-{% macro test_case(casey) -%}
-    def test_{{ casey["description"] | to_snake }}(self):
-        self.assertEqual({{- casey["property"] | to_snake -}}({{- casey["input"]["board"] -}}))
+{% macro test_case(case) -%}
+    def test_{{ case["description"] | to_snake }}(self):
 {%- endmacro %}
 {{ macros.header()}}
 
 class {{ exercise | camel_case }}Test(unittest.TestCase):
-    {% for case in cases %} {% for casey in case["cases"] %}
-        {{ test_case(casey) }} 
+    {% for case2 in cases %} {% for case in case2["cases"] %}
+        {{ test_case(case) }} 
     {% endfor %} {% endfor %}
