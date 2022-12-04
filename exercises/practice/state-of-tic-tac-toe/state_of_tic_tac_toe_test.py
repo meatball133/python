@@ -9,56 +9,56 @@ from state_of_tic_tac_toe import (
 
 class StateOfTicTacToeTest(unittest.TestCase):
 
-    {test_case(casey)}
+    deftest
 
-    {test_case(casey)}
+    deftest
 
-    {test_case(casey)}
+    deftest
 
-    {test_case(casey)}
+    deftest
 
-    {test_case(casey)}
+    deftest
 
-    {test_case(casey)}
+    deftest
 
-    {test_case(casey)}
+    deftest
 
-    {test_case(casey)}
+    deftest
 
-    {test_case(casey)}
+    deftest
 
-    {test_case(casey)}
+    deftest
 
-    {test_case(casey)}
+    deftest
 
-    {test_case(casey)}
+    deftest
 
-    {test_case(casey)}
+    deftest
 
-    {test_case(casey)}
+    deftest
 
-    {test_case(casey)}
+    deftest
 
-    {test_case(casey)}
+    deftest
 
-    {test_case(casey)}
+    deftest
 
-    {test_case(casey)}
+    deftest
 
-    {test_case(casey)}
+    deftest
 
-    {test_case(casey)}
+    deftest
 
-    {test_case(casey)}
+    deftest
 
-    {test_case(casey)}
+    deftest
 
-    {test_case(casey)}
+    deftest
 
-    {test_case(casey)}
+    deftest
 
-    {test_case(casey)}
+    deftest
 
-    {test_case(casey)}
+    deftest
 
-    {test_case(casey)}
+    deftest
